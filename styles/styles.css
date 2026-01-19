@@ -59,7 +59,47 @@ justify-content: center;
 
 
 
+/*TEXT-SECTION STYLES*/
+.text-section{
+  background-color: #1A0B2E;
+  margin-top: -5px;
+ text-align: center;
 
+}
+.text-section-2 h2{
+font-size:48px ;
+font-weight:bold ;
+color: white;
+padding-top: 120px;
+padding-bottom: 20px;
+}
+.text-section-2{
+  color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+#border{
+padding-top: 80px;
+
+}
+.text-section-2 h3{
+  font-size: 48px;
+  font-weight:bold ;
+  color: #00FF88;
+}
+.text-section-3{
+  display: flex;
+ justify-content: center;
+ gap: 80px;
+ padding-top: 80px;
+ padding-bottom: 120px;
+}
+.text-section-3 p{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+ align-items: center;
+}
 
 
 
