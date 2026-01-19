@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+/*NAVBAR STYLES*/
+.nav-container{
+ 
+}
+.nav-main{
+  display: flex;
+ justify-content: space-around;
+ background-color: #412567;
+}
+.nav-text{
+  font-size: 40px;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+.nav-text-2{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.nav-main p{
+font-size: 16px;
+font-weight: 500;
+color: white;
+}
+.btn-1{
+color: white;
+font-size: 16px;
+font-weight: 500;
+align-items: center;
+justify-content: center;
+}
+.gradient-text{
+  background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
