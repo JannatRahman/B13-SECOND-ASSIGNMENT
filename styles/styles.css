@@ -158,8 +158,53 @@ padding-top: 20px;
   padding-top: 20px;
 }
 
+/*HOST SECTION STYLES*/
+.main-host-section{
+  background-color: #1A0B2E;
+  padding-top: 40px;
+  padding-bottom: 120px;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.main-host-section h1{
+font-size: 48px;
+font-weight: bold;
+color: white;
+padding-bottom: 40px;
+text-align: center;
+}
+.host-section{
+  background-color:rgb(53, 17, 101);
+  display: flex;
+  gap: 24px;
+border-radius: 40px;  
+padding: 40px;
+align-items: center;
 
+}
+.host-section h2{
+  font-size: 32px;
+  font-weight:bold ;
+  color: white;
+  padding-bottom: 16px;
+}
 
+.host-section p{
+color: white;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 16px;
+}
+.host-section-socials {
+align-items: center;
+}
+#images{
+gap: 50px;
+padding: 6px;
+border: 1px solid rgba(83, 60, 114, 1);
+border-radius: 60%;
+
+}
 
 
 
@@ -229,5 +274,19 @@ padding-top: 10px;
 }
 .featured-episode{
   display: grid;
+}
+.host-section{
+  flex-direction: column;
+  text-align: center;
+  width: 400px;
+  height: 600px;
+  justify-content: center;
+  
+}
+.main-host-section{
+ 
+  padding-bottom: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 }
