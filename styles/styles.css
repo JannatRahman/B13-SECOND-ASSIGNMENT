@@ -10,7 +10,7 @@
   display: flex;
  justify-content: space-around;
  background-color: #1A0B2E;
- padding: 10px;
+ padding: 15px;
  border-bottom: 2px solid rgba(65, 37, 103, 1);
 }
 .nav-text{
