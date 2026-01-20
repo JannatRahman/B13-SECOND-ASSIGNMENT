@@ -132,6 +132,116 @@ padding-top: 80px;
  align-items: center;
 }
 
+/*TECHWAVE STYLES*/
+.main-techwave-section{
+  background-color: #230E3D;
+  padding: 20px;
+  color: white;
+  padding: 200px 120px 200px 120px;
+
+}
+.main-techwave-section h1{
+  font-size:48px ;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 200px);
+  gap: 20px;
+  
+}
+.premium-card{
+  background-color: rgba(53, 17, 101, 0.4);
+ grid-column: span 1;
+ grid-row: span 2;
+ border-radius: 40px;
+ padding: 40px;
+
+}
+.premium-card h2{
+margin-bottom: 10px;
+font-size: 18px;
+}
+.premium-card p{
+font-size: 14px;
+opacity: 0.85;
+
+}
+
+.mobile-card{
+  background-color: rgba(53, 17, 101, 0.4);
+  grid-column: span 2;
+  grid-row: span 1;
+  border-radius: 40px;
+  padding: 30px;
+  padding-top: 10px;
+}
+
+.mobile-card h2{
+margin-bottom: 10px;
+font-size: 18px;
+}
+.mobile-card p{
+font-size: 14px;
+opacity: 0.85;
+
+}
+
+.global-card{
+background-color: rgba(53, 17, 101, 0.4);
+grid-column: span 2;
+grid-row: span 1;
+border-radius: 40px;
+padding: 30px;
+}
+.global-card h2{
+margin-bottom: 10px;
+font-size: 18px;
+}
+.global-card p{
+font-size: 14px;
+opacity: 0.85;
+
+}
+
+.exclusive-card{
+background-color: rgba(53, 17, 101, 0.4);
+grid-column: span 2;
+grid-row: span 1;
+border-radius: 40px;
+padding: 30px;
+}
+.exclusive-card h2{
+margin-bottom: 10px;
+font-size: 18px;
+}
+.exclusive-card p{
+font-size: 14px;
+opacity: 0.85;
+
+}
+.rich-card{
+background-color: rgba(53, 17, 101, 0.4);
+grid-column: span 1;
+border-radius: 40px;
+padding: 30px;
+}
+.rich-card h2{
+margin-bottom: 10px;
+font-size: 18px;
+}
+.rich-card p{
+font-size: 14px;
+opacity: 0.85;
+
+}
+
+
+
 /*FEATURED EPISODES STYLES*/
 .featured-episode-section h1{
 font-size: 48px;
@@ -354,6 +464,9 @@ justify-content: center;
 padding-left: 50px;
 padding-right: 50px;
 
+}
+.grid{
+  grid-template-columns: 1fr;
 }
 }
 
