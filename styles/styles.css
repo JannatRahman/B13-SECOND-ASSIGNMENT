@@ -21,6 +21,9 @@
   gap: 20px;
   align-items: center;
 }
+.nav-main h1{
+  font-size: 48px;
+}
 
 .nav-main p{
 font-size: 16px;
@@ -46,6 +49,7 @@ justify-content: center;
   border: none;
   color: white;
   cursor: pointer;
+  
 
 }
 .gradient-text{
@@ -61,6 +65,7 @@ justify-content: center;
 }
 .bg-img{
   width: 100%;
+  margin-bottom: -70px;
 }
 .image-circle{
 position: absolute;
@@ -80,11 +85,81 @@ width: 300px;
   color: black;
   padding: 8px;
   border-radius: 70px;
-  bottom: 400px;
-  right: 540px;
+  bottom: 450px;
+  right: 520px;
   position: absolute;
 
 }
+.hero-bg-texts h2{
+ position:relative;
+ z-index: 3;
+ text-align: center;
+ top: -500px;
+ font-size: 48px;
+ font-weight: bold;
+ color: white;
+ padding-bottom: 8px;
+ 
+
+}
+.hero-bg-texts p{
+position:relative;
+ z-index: 3;
+ text-align: center;
+ top: -500px;
+ font-size: 16px;
+ opacity: 0.8;
+ color: white;
+ padding-bottom: 8px;
+}
+.gradient-btn-2{
+  position:relative;
+ z-index: 3;
+ text-align: center;
+ top: -500px;
+ font-size: 16px;
+ left: 550px;
+  border-radius: 40px;
+  padding: 10px;
+  border: none;
+}
+.gradient-btn-2{
+  background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+  padding: 10px 15px 10px 15px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+
+}
+.gradient-text-2{
+  background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.hero-btn-2{
+position:relative;
+ z-index: 3;
+ text-align: center;
+ top: -500px;
+ font-size: 16px;
+  left: 550px;
+  border-radius: 40px;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: #00FF88;
+  border: 1px solid #00FF88;
+   cursor: pointer;
+  
+
+}
+
+
 
 
 
@@ -537,5 +612,9 @@ display: grid;
 justify-content: center;
 padding-left: 200px;
 padding-right: 200px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
 }
 }
