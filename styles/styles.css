@@ -40,6 +40,7 @@ color: white;
 font-size: 16px;
 font-weight: 600;
 justify-content: center;
+transition: all 0.2s ease;
 
 }
 .gradient-btn{
@@ -50,7 +51,9 @@ justify-content: center;
   color: white;
   cursor: pointer;
   
-
+}
+.btn-1:hover{
+transform: translateY(-2px);
 }
 .gradient-text{
   background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
