@@ -458,6 +458,9 @@ padding-bottom: 32px;
   .nav-text, .btn-1{
     display: none;
   }
+  .gradient-btn{
+
+  }
   .hamburger{
    display: inline;
  
@@ -477,18 +480,18 @@ gap: 5px;
 height: 140px;
 width: 140px;
 left: 210px;
-top: -260px;
+top: -170px;
 }
 .image-mic{
   height: 50px;
   width: 50px;
   left: 110px;
-  top: -310px;
+  top: -218px;
  
 }
 .badge{
-  bottom: 320px;
-  right: 200px;
+  bottom: 760px;
+  right: 208px;
   position: absolute;
   padding: 4px;
 }
@@ -497,11 +500,21 @@ top: -260px;
   height: 100%;
 }
 
+.text-section{
+  max-width: 576px;
+  
+ 
 
+}
 .text-section-2{
   color: white;
   padding-left: 100px;
   padding-right: 100px;
+}
+.text-section-2 h2{
+margin-top: 30px;
+
+
 }
 #border{
 padding-top: 10px;
@@ -543,6 +556,18 @@ padding-right: 50px;
 .grid{
   grid-template-columns: 1fr;
 }
+.hero-bg-texts {
+  
+ position:relative;
+ z-index: 3;
+ text-align: center;
+ top: 350px;
+ padding-bottom: 100px;
+ 
+ 
+
+
+}
 }
 
 /*LARGE DEVICE*/
@@ -559,6 +584,9 @@ padding-right: 50px;
   .text-section-2 p{
   padding-left:100px ;
   padding-right: 100px;
+}
+.text-section{
+  max-width: 992px;
 }
 #border{
   padding-top: 30px;
@@ -588,18 +616,18 @@ justify-content: center;
 height: 230px;
 width: 230px;
 left: 380px;
-top: -410px;
+top: -350px;
 }
 .image-mic{
   height: 100px;
   width: 100px;
   left: 210px;
-  top: -470px;
+  top: -420px;
  
 }
 .badge{
   bottom: 750px;
-  right: 380px;
+  right: 390px;
   position: absolute;
   padding: 4px;
 }
@@ -616,5 +644,18 @@ padding-right: 200px;
 .grid{
   display: grid;
   grid-template-columns: 1fr;
+}
+.hero-bg-texts{
+  position:relative;
+ z-index: 3;
+ text-align: center;
+ top: 170px;
+ 
+}
+.hero-btn-2{
+  left: -60px;
+}
+.gradient-btn-2{
+   left: -60px;
 }
 }
